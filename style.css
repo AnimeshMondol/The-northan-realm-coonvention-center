@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(252, 232, 252);
+}
 #logo-title{
     font-weight: 900;
     color: purple;
@@ -16,4 +19,33 @@
     color: white;
     background-color: purple;
     box-shadow: 2px 2px 4px 4px white;
+}
+/* for card  */
+#custom-text-color-h{
+    color: #231D4F;
+}
+#card-button-bg{
+    background-color: rgb(252, 232, 252);
+}
+#card-button-bg:hover{
+    background-color: rgb(124, 13, 124);
+    box-shadow: 2px 2px 4px 4px rgb(180, 89, 180);
+}
+#custom-color-text-p{
+    color: #848199;
+}
+.fill{
+    color: rgb(99, 46, 99);
+}
+#card-button{
+    height: 44px;
+    width: 170px;
+    color: rgb(23, 25, 156);
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(23, 25, 156);
+    border-radius: 15px;
+    font-weight: bolder;
+}
+.bottom-shadow{
+    box-shadow: 0px 25px 45px -15px rgb(82, 57, 170);
 }
