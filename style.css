@@ -89,3 +89,11 @@ body{
                 0 48.8px 63.4px rgba(100, 43, 86, 0.086),
                 0 120px 100px rgba(133, 51, 126, 0.12);;
 }
+/* footer section  */
+.footer-icon-size img{
+    width: 135px;
+    height: 40px;
+}
+#playstore{
+    height: 70px;
+}
