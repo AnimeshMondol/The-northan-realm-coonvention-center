@@ -89,6 +89,35 @@ body{
                 0 48.8px 63.4px rgba(100, 43, 86, 0.086),
                 0 120px 100px rgba(133, 51, 126, 0.12);;
 }
+/* our popular projects  */
+.card-background{
+    background-color: rgb(211, 211, 211);
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+}
+.card-background:hover{
+    border: 2px solid purple;
+    overflow: hidden;
+    box-shadow: 10px 15px 15px rgb(228, 189, 240);
+}
+.image-hover:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+    transition-delay: .5ms;
+    border-radius: 10px;
+    
+}
+.text-family-h{
+    font-family: cursive;
+    font-size: xx-large;
+    color: rgb(75, 0, 75);
+    font-weight: bolder;
+}
 /* footer section  */
 .footer-icon-size img{
     width: 135px;
