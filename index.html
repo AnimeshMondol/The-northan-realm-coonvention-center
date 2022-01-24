@@ -31,7 +31,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="#top">
         <!-- navbar  -->
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light m-2 p-2">
@@ -157,7 +157,60 @@
                 </div>
             </div>
         </section>
-        <br>
+        <!-- alert and modal -->
+        <section class="container my-5 d-flex justify-content-end">
+            <div class="alert alert-light alert-dismissible fade show w-50 d-flex " role="alert">
+                <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <h6 class="text-primary"><i class="fas fa-gift fill"></i>&nbsp; Get 20% off by ordering now!!!</h6>
+                </button>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Send Message for For Book</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card-body text-info">
+                                <div class="form-floating mb-1">
+                                    <input type="email" class="form-control" id="floatingInput"
+                                        placeholder="name@example.com">
+                                    <label for="floatingInput">Email address</label>
+                                </div>
+                                <div class="form-floating mb-1">
+                                    <input type="text" class="form-control" id="floatingInput"
+                                        placeholder="Enter Full Name">
+                                    <label for="floatingInput">Full Name</label>
+                                </div>
+                                <div class="form-floating mb-1">
+                                    <select class="form-select" id="floatingSelect"
+                                        aria-label="Floating label select example">
+                                        <option selected>Click here to select!</option>
+                                        <option value="1">Business Fair</option>
+                                        <option value="2">Wedding Basic</option>
+                                        <option value="2">Wedding Plus</option>
+                                        <option value="3">Corporate Event</option>
+                                    </select>
+                                    <label for="floatingSelect">Select Package</label>
+                                </div>
+                                <div class="form-floating mb-1">
+                                    <textarea class="form-control" placeholder="Leave a comment here"
+                                        id="floatingTextarea2" style="height: 100px"></textarea>
+                                    <label for="floatingTextarea2">Comments</label>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Reset</button>
+                                <button type="button" class="btn btn-success">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
         <!-- our package section  -->
         <section class="container my-5" id="pack">
             <h2 class="text-center fw-bolder animate__animated animate__zoomInDown animate__delay-1s">Our Packages</h2>
@@ -517,7 +570,7 @@
         <section class="container my-5" id="contact">
             <h2 class="text-center fw-bolder animate__animated animate__heartBeat animate__delay-4s" id="contact">
                 Contact Us</h2>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-5 p-5">
+            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-5 p-5">
                 <div class="col p-5">
                     <div class="card border-info mb-3 rounded-3 shadow-lg" style="max-width: 35rem; height: 26.6rem;">
                         <iframe
@@ -563,6 +616,12 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <!-- go to top  -->
+        <section class="container my-1">
+            <div class="d-flex justify-content-end icon-top">
+                <a class="text-decoration-none" href="index.html"><i class="far fa-arrow-alt-circle-up"></i></a>
             </div>
         </section>
     </main>
